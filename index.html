@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1> Flexbox</h1>
+    </header>
+    <main>
+    
+    <div class="propiedades">
+        <details>
+            <summary> flex-wrap </summary>
+            <section id="flex-wrap">
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint similique est, repellendus suscipit aliquam a ex ipsum quam dolorum voluptatum laboriosam in nihil ad quas amet nemo aperiam quisquam alias!
+                </p>
+                <label for="">
+                    <input id="range" type="range" value="100">
+                    <h4 id="porcentaje">100%</h4>
+                </label>
+                <label for="">
+                    <input id="chk-height" type="checkbox">
+                    <span>height: 600px</span>
+                </label>
+                <select id="cmb-flex-wrap">
+                    <option value="nowrap">nowrap</option>
+                    <option value="wrap">wrap</option>
+                    <option value="wrap-reverse">wrap-reverse</option>
+                </select>
+            </section>
+        </details>
+        <details>
+            <summary>justify-content</summary>
+            <section id="justify-content">
+                <p class="description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam reprehenderit nesciunt sit vero atque harum doloremque voluptatibus laboriosam, amet earum temporibus et eveniet explicabo ducimus, ipsum sequi, magnam voluptatum dolore.
+                </p>
+                <select id="cmb-justify-content">
+                    <option value="start">star</option>
+                    <option value="center">center</option>
+                    <option value="end">end</option>
+                    <option value="start">star</option>
+                    <option value="space-between">space-between</option>
+                    <option value="space-around">space-around</option>
+                    <option value="space-evenly">space-evenly</option>
+                </select>
+            </section>
+        </details>
+    </div>
+    <div class="demostracion">
+        <div class="flex-container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+
+        </div>
+
+        <hr class="main-axis">
+        <span class="label-main-axis">Eje Principal</span>
+        <hr class="cross-axis">
+        <span class="label-cross-axis">Eje Secundario</span>
+    </div>
+
+    </main>
+
+</body>
+</html>
